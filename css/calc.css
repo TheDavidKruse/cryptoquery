@@ -1,0 +1,79 @@
+
+.container-fluid {
+  height: 100%;
+  width: 100vw;
+  background-color: #8A716A;
+}
+
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  padding-top: 3%;
+  width: 85%;
+  height: 100%;
+  margin: 15px auto;
+  padding-bottom: 40px;
+  background-color: #97ABB1;
+}
+
+.header {
+  color: white;
+  background-color: #322A26;
+  box-shadow: 3px;
+  width: 100vw;
+  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.footer {
+  width: 100vw;
+  height: auto;
+  position: fixed;
+  bottom: 0px;
+  background-color: #322A26;
+  color: white;
+  text-align: center;
+}
+
+.textMain {
+  margin: 0px auto;
+  width: 90%;
+  height: auto;
+  background-color: #C2B8B2;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.currency {
+  width: 10%;
+}
+
+.text {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.textMain h4{
+  padding: 0px 5px;
+}
+.textMain h2{
+  padding: 0px 5px;
+}
+
+.uhr {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.calc {
+  margin: 5% auto;
+  width: 70%;
+  height: auto;
+  background-color: #C2B8B2;
+  border-radius: 5px;
+  border: 1px solid black;
+}

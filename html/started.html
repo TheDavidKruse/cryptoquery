@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/calc.css">
+  <script src="../js/script.js" charset="utf-8"></script>
+  <meta charset="utf-8">
+  <title>CryptoQuery | Calculator</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+
+
+
+    <div id='thing' class="row header">
+      <div class="col-md-10">
+        <h3>CryptoQuery | Calculator</h3>
+      </div>
+      <div class="col-md-2 alink">
+        <a href="home.html">Home</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="calc">
+        <div class="uhr">
+          <input id='usrHsh' type="number" name="usrHsh" value="" placeholder="Insert Hash rate">
+          <select class="" name="hashes">
+                <option value="0">H/s</option>
+                <option value="1">kH/s</option>
+                <option value="2">mH/s</option>
+                <option value="3">gH/s</option>
+              </select>
+          <button class="btn btn-default" type="button" name="hashBtn">Calculate!</button>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th> </th>
+              <th>Type: </th>
+              <th>
+                <br><span>
+                    Bitcoin</span></th>
+              <th>
+                <br><span>
+                    Ethereum</span></th>
+              <th>
+                <br><span>
+                    Ethereum Classic</span></th>
+            </tr>
+            <tr id='day1'>
+              <th>1 day</th>
+              <th> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id='week1'>
+              <th>1 week</th>
+              <th></th>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr id='month1'>
+              <th>1 month</th>
+              <th></th>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr id='year1'>
+              <th>1 year</th>
+              <th></th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="row textMain">
+        <div class="text">
+          <h3>Crypto Currency Pricing</h3>
+          <h4>Ever since bitcoin was popularized, people have been looking for ways to mine more efficiently. While efficiency was not within most people's grasp they then did the only logical thing. If they can't mine bitcoin, they should make their own. Thus more currencies were created. The value of each coin depends on several factors including mine-sability, the coded block reward and how difficult it is to get said coin. We can see the disparity between the coins here.  This is because your mining rate is dependent on the total mining speed you have based on Hashes, which are measured similarly to bytes (i.e. kilohashes, megahashes, gigahashes, etc).  </h4>
+          <br>
+          <br>
+          <h5>This calculator does not take in the cost of power, maintainance  or the exact mining difficulty of each currency. </h5>
+        </div>
+      </div>
+    </div>
+    <div class="row footer">
+      <p>&copy David Kruse 2017</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
