@@ -1,5 +1,5 @@
 .container-fluid {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   background-color: #8A716A;
 }
@@ -8,13 +8,20 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   padding-top: 3%;
   width: 85%;
-  height: auto;
+  height: 100vh;
   margin: 15px auto;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   background-color: #97ABB1;
 }
+@media (max-width:445px) {
+.container-fluid{
+  height: 100vh;
+}
+}
+
 
 .header {
+  height: auto;
   color: white;
   background-color: #322A26;
   box-shadow: 3px;
