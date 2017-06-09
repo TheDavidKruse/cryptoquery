@@ -9,7 +9,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   padding-top: 3%;
   width: 85%;
-  height: 100%;
+  height: 90%;
   margin: 15px auto;
   padding-bottom: 40px;
   background-color: #97ABB1;
@@ -39,7 +39,7 @@
 .textMain {
   margin: 0px auto;
   width: 90%;
-  height: 100%;
+  height: 90%;
   background-color: #C2B8B2;
   border: 1px solid black;
   border-radius: 5px;

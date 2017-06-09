@@ -1,8 +1,8 @@
 .container-fluid {
-  height: auto;
+  height: 100vh;
   width: 100vw;
   background-color: #8A716A;
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 .container {
@@ -92,4 +92,5 @@
   background-color: #C2B8B2;
   border-radius: 5px;
   border: 1px solid black;
+  overflow-x: scroll;
 }
