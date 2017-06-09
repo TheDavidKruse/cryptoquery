@@ -1,4 +1,3 @@
-
 .container-fluid {
   height: auto;
   width: 100vw;
@@ -14,12 +13,18 @@
   padding-bottom: 40px;
   background-color: #97ABB1;
 }
+
 @media (max-width:445px) {
-.container-fluid{
-  height: 100vh;
-}
+  .container-fluid {
+    height: 100vh;
+  }
 }
 
+.nav {
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 2em;
+}
 
 .header {
   color: white;
@@ -63,10 +68,12 @@
   padding-left: 3%;
   padding-right: 3%;
 }
-.textMain h4{
+
+.textMain h4 {
   padding: 0px 5px;
 }
-.textMain h2{
+
+.textMain h2 {
   padding: 0px 5px;
 }
 

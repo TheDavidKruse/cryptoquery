@@ -1,25 +1,14 @@
 .container-fluid {
-  height: auto;
+  height: 100vh;
   width: 100vw;
   background-color: #8A716A;
 }
-@media (max-width:445px) {
-.container-fluid{
-  height: 100vh;
-}
-.container{
-  height: 100vh;
-}
-}
-
-
-
 
 .container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   padding-top: 3%;
   width: 85%;
-  height: auto;
+  height: 90%;
   margin: 15px auto;
   padding-bottom: 40px;
   background-color: #97ABB1;
@@ -34,10 +23,48 @@
   box-shadow: 3px 3px 5px black;
 }
 
+.nav {
+  margin: 10px 20px;
+  display: inline-block;
+  font-size: 2em;
+}
+
 .header a {
   color: white;
   text-decoration: none;
   margin-top: 20px;
+}
+
+.textMain {
+  margin: 0px auto;
+  width: 90%;
+  height: 100%;
+  background-color: #C2B8B2;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.text {
+  margin: 0px auto;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.textMain h4 {
+  margin-left: 0px;
+  font-size: .5em padding: 0px .5em;
+}
+
+.textMain h2 {
+  font-size: 2em;
+  padding: 0px 5px;
+}
+
+.video {
+  margin: 10px auto;
+  width: 80%;
+  height: auto;
 }
 
 .footer {
@@ -49,38 +76,4 @@
   color: white;
   text-align: center;
   margin: 0;
-}
-
-.textMain {
-  margin: 0px auto;
-  width: 90%;
-  height: auto;
-  background-color: #C2B8B2;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.text {
-  margin: 0px auto;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-.textMain h4{
-  padding: 0px 5px;
-}
-.textMain h2{
-  padding: 0px 5px;
-}
-.video{
-  margin: 10px auto;
-  width: 80%;
-  height: auto;
-}
-@media (max-width:445px) {
-.container-fluid{
-  height: 100vh;
-}
-.container{
-  height: 100vh;
-}
 }
