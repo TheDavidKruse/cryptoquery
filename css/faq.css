@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100vw;
   background-color: #8A716A;
+  overflow-y: scroll;
 }
 
 .container {

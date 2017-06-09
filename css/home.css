@@ -59,6 +59,7 @@
   background-color: #C2B8B2;
   border: 1px solid black;
   border-radius: 5px;
+    overflow-y: scroll;
 }
 
 .textMain h4 {

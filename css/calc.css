@@ -2,6 +2,7 @@
   height: auto;
   width: 100vw;
   background-color: #8A716A;
+    overflow-y: scroll;
 }
 
 .container {
@@ -12,6 +13,7 @@
   margin: 15px auto;
   padding-bottom: 40px;
   background-color: #97ABB1;
+  overflow-y: scroll;
 }
 
 @media (max-width:445px) {
@@ -58,6 +60,7 @@
   background-color: #C2B8B2;
   border: 1px solid black;
   border-radius: 5px;
+  overflow-y: scroll;
 }
 
 .currency {
